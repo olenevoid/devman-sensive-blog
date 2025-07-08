@@ -4,7 +4,10 @@
 
 ## Запуск
 
-Для запуска блога у вас уже должен быть установлен Python 3.
+Для запуска блога у вас уже должен быть установлен Python 3.10.*
+Сайт тестировался на версии 3.10.17 и может некорректно работать на новых версиях.
+Для Windows и Mac нужную версию можно скачать по [ссылке](https://www.python.org/downloads/release/python-31017/).
+Для Linux установка альтернативной версии Python осуществляется средствами [pyenv](https://github.com/pyenv/pyenv).
 
 - Скачайте код
 - Установите зависимости командой `pip install -r requirements.txt`
@@ -25,7 +28,7 @@
 - `STATIC_URL` — по умолчанию это `'/static/'`. [Что такое STATIC_URL](https://docs.djangoproject.com/en/3.0/ref/settings/#std:setting-STATIC_URL).
 - `STATIC_ROOT` — по умолчанию это `'None'`, т.е. текущая папка. [Что такое STATIC_ROOT](https://docs.djangoproject.com/en/3.0/ref/settings/#std:setting-STATIC_ROOT).
 - `MEDIA_URL` — по умолчанию это `'/media/'`. [Что такое MEDIA_URL](https://docs.djangoproject.com/en/3.0/ref/settings/#std:setting-MEDIA_URL).
-- `MEDIA_ROOT` — по умолчанию это `'media'`. [Что такое MEDIA_ROOT](https://docs.djangoproject.com/en/3.0/ref/settings/#std:setting-MEDIA_ROOT). 
+- `MEDIA_ROOT` — по умолчанию это `'media'`. [Что такое MEDIA_ROOT](https://docs.djangoproject.com/en/3.0/ref/settings/#std:setting-MEDIA_ROOT).
 
 
 ## Страницы сайта
