@@ -30,7 +30,7 @@
                 </div>
                 <div class="blog__slide__content">
                   <h3>
-                    <a href="#">{{ post.title }}</a>
+                    <a href="{% url 'post_detail' slug=post.slug %}">{{ post.title }}</a>
                   </h3>
                   <p>{{ post.published_at }}</p>
                 </div>
