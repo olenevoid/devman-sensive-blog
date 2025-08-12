@@ -30,9 +30,9 @@
         <div class="col-lg-8">
           <div class="main_blog_details">
             {% if post.image_url %}
-              <img class="img-fluid" src="{{ post.image_url }}" alt="">
+              <img class="img-fluid" src="{{ post.image_url }}" alt="{{ post.title }}">
             {% else %}
-              <img class="img-fluid" src="{% static 'img/banner/blog.png' %}" alt="">
+              <img class="img-fluid" src="{% static 'img/banner/blog.png' %}" alt="{{ post.title }}">
             {% endif %}
             <h4>{{ post.title }}</h4>
             <div class="user_details">
