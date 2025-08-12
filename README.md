@@ -1,6 +1,9 @@
-# Блог от Лизы
+# Блог Sensive
 
-Блог на Django, серверная часть.
+Блог на Django
+
+<img width="1189" height="1280" alt="image" src="https://github.com/user-attachments/assets/d2026557-69b5-4fcc-9c0c-685f887fae41" />
+
 
 ## Запуск
 
@@ -9,9 +12,17 @@
 Для Windows и Mac нужную версию можно скачать по [ссылке](https://www.python.org/downloads/release/python-31017/).
 Для Linux установка альтернативной версии Python осуществляется средствами [pyenv](https://github.com/pyenv/pyenv).
 
-- Скачайте код
-- Установите зависимости командой `pip install -r requirements.txt`
-- Запустите сервер командой `python3 manage.py runserver`
+После установки нужной версии Python выполните следующую команду для установки необходимых зависимостей:
+
+```
+pip install -r requirements.txt
+```
+
+Затем запустите сервер командой:
+
+```
+python3 manage.py runserver
+```
 
 После этого переходите по ссылке [127.0.0.1:8000](http://127.0.0.1:8000), вы увидите главную страницу.
 
