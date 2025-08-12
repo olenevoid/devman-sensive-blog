@@ -9,9 +9,17 @@
 Для Windows и Mac нужную версию можно скачать по [ссылке](https://www.python.org/downloads/release/python-31017/).
 Для Linux установка альтернативной версии Python осуществляется средствами [pyenv](https://github.com/pyenv/pyenv).
 
-- Скачайте код
-- Установите зависимости командой `pip install -r requirements.txt`
-- Запустите сервер командой `python3 manage.py runserver`
+После установки нужной версии Python выполните следующую команду для установки необходимых зависимостей:
+
+```
+pip install -r requirements.txt
+```
+
+Затем запустите сервер командой:
+
+```
+python3 manage.py runserver
+```
 
 После этого переходите по ссылке [127.0.0.1:8000](http://127.0.0.1:8000), вы увидите главную страницу.
 
