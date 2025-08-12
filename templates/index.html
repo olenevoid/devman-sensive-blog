@@ -30,7 +30,11 @@
                 {% endif %}
                 <div class="card blog__slide text-center">
                   <div class="blog__slide__img">
-                    <img class="card-img rounded-0" src="{{ post.image_url }}" alt="">
+                    {% if post.image_url %}
+                      <img class="card-img rounded-0" src="{{ post.image_url }}" alt="{{ post.title }}">
+                    {% else %}
+                      <img class="img-fluid" src="{% static 'img/banner/blog.png' %}" alt="{{ post.title }}">
+                    {% endif %}
                   </div>
                   <div class="blog__slide__content">
                     <h3>
