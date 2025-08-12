@@ -1,6 +1,9 @@
-# Блог от Лизы
+# Блог Sensive
 
-Блог на Django, серверная часть.
+Блог на Django
+
+<img width="1189" height="1280" alt="image" src="https://github.com/user-attachments/assets/d2026557-69b5-4fcc-9c0c-685f887fae41" />
+
 
 ## Запуск
 
