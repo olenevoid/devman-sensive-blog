@@ -23,11 +23,7 @@
       <div class="container">
         <div class="d-flex">
           {% for post in most_popular_posts %}
-            {% if forloop.counter == 3 %}
-              <div class="flex-fill">
-              {% else %}
-                <div class="flex-fill" style="margin-right: 30px;">
-                {% endif %}
+                <div class="flex-fill" style={% if forloop.counter != 3 %} "margin-right: 30px;" {% endif %}>
                 <div class="card blog__slide text-center">
                   <div class="blog__slide__img">
                     {% if post.image_url %}
